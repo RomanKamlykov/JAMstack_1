@@ -1,4 +1,5 @@
 const axios = require('axios');
+require('dotenv').config();
 const url = "https://graphql.fauna.com/graphql";
 
 module.exports = async (query, variables) => {

@@ -1,6 +1,6 @@
-const { GET_LINKS } = require("$functions/utils/linkQueries");
-const sendQuery = require("$functions/utils/sendQuery");
-const formattedResponse = require("$functions/utils/formattedResponse");
+const { GET_LINKS } = require("./utils/linkQueries");
+const sendQuery = require("./utils/sendQuery");
+const formattedResponse = require("./utils/formattedResponse");
 
 exports.handler = async (event) => {
     try {
