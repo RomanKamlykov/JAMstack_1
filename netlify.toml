@@ -1,4 +1,4 @@
 [build]
     functions = "functions"
     publish = "public"
-    command = "echo 'default context'"
+    command = "#"
